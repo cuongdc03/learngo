@@ -24,5 +24,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// Use fmt.Println()
+	a := 42
+	b := 3.14
+	c := true
+	d := false
+	e := "Rahul"
+	f := "भारत एक अद्भुत देश है"
+	println(a, b, c, d, e, f)
+
 }

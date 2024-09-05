@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // short declaration use cases
 
 func main() {
@@ -31,5 +33,6 @@ func main() {
 	// color := red
 
 	// DO THIS (concise):
-	// width, color := 50, "red"
+	width, color := 50, "red"
+	fmt.Println(width, color)
 }

@@ -11,8 +11,8 @@ package main
 import "fmt"
 
 func main() {
-	speed := 100 // int
-	force := 2.5 // float64
+	speed := 100.0 // int
+	force := 2.5   // float64
 
 	// ERROR: invalid op
 	// speed = speed * force
@@ -20,7 +20,7 @@ func main() {
 	// conversion can be a destructive operation
 	// `force` loses its fractional part...
 
-	speed = speed * int(force)
+	speed = speed * (force)
 
 	fmt.Println(speed)
 }

@@ -18,7 +18,6 @@ import "fmt"
 // "non-declaration statement outside function body"
 
 // safe := true
-
 // However, you can use the normal declaration at the
 // package scope. Since it has a keyword: `var`
 var safe = true

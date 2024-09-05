@@ -14,10 +14,11 @@ import (
 )
 
 func main() {
-	_, file := path.Split("css/main.css")
+	// _, file := path.Split("css/main.css")
 
 	// or this:
-	// dir, file := path.Split("css/main.css")
-
+	dir, file := path.Split("css/main.css")
+	fmt.Println("dir:", dir)
 	fmt.Println("file:", file)
+
 }
